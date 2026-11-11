@@ -4,7 +4,7 @@ An AI-powered Formula 1 race strategy analysis assistant that explores historica
 
 **Repository:** [Thorfin05/f1-race-strategy-assistant](https://github.com/Thorfin05/f1-race-strategy-assistant)
 
-## 📌 Project Overview
+##  Project Overview
 
 Formula 1 race strategy involves analysing several factors, including lap times, pit-stop windows, driver pace, and tyre performance.
 
@@ -12,7 +12,7 @@ This project aims to build a race strategy assistant that uses historical Formul
 
 The current development focuses on building a reliable historical data analysis foundation before integrating advanced AI capabilities.
 
-## 🎯 Current Features
+##  Current Features
 
 - **Historical F1 Data Analysis:** Store and analyse historical race information using SQLite.
 - **Pit-Stop Analysis:** Examine pit-stop laps and stop durations.
@@ -23,7 +23,7 @@ The current development focuses on building a reliable historical data analysis 
 - **Robust Regression:** Use a Theil-Sen estimator to reduce the influence of unusual lap-time observations.
 - **Data Validation:** Identify missing laps, timing anomalies, and potentially pit-affected laps.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -34,7 +34,7 @@ The current development focuses on building a reliable historical data analysis 
 | Matplotlib | Data visualization |
 | Git & GitHub | Version control |
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```text
 f1-race-strategy-assistant/
@@ -67,7 +67,7 @@ f1-race-strategy-assistant/
 
 *The structure above documents the development scripts; individual scripts may evolve as the project develops.*
 
-## 📊 Case Study: 2023 Italian Grand Prix
+##  Case Study: 2023 Italian Grand Prix
 
 The project uses the 2023 Italian Grand Prix at Monza as an initial case study.
 
@@ -108,7 +108,7 @@ Example estimated slopes:
 
 These values represent estimated lap-time trends, not direct measurements of physical tyre wear.
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 ### 1. Clone the repository
 
@@ -166,7 +166,7 @@ python src/tyre_degradation_robust.py
 
 Run scripts from the project root directory.
 
-## 🧠 Planned AI Capabilities
+##  Planned AI Capabilities
 
 The long-term objective is to develop the project into a natural-language race strategy assistant.
 
@@ -181,7 +181,7 @@ Planned enhancements include:
 
 These capabilities are planned extensions and are not represented as completed features.
 
-## ⚠️ Current Limitations
+##  Current Limitations
 
 - The current analysis is primarily based on historical race data.
 - Tyre compound and tyre-age information are not available in the current SQLite database.
@@ -190,7 +190,7 @@ These capabilities are planned extensions and are not represented as completed f
 - Lap-time degradation estimates should not be interpreted as direct physical tyre-wear measurements.
 - Strategy recommendations require further development and validation.
 
-## 🚀 Future Roadmap
+##  Future Roadmap
 
 - [ ] Improve historical data validation.
 - [ ] Build more reliable tyre degradation models.
@@ -201,7 +201,7 @@ These capabilities are planned extensions and are not represented as completed f
 - [ ] Develop an interactive dashboard.
 - [ ] Evaluate strategy recommendations against historical race outcomes.
 
-## 👨‍💻 Author
+##  Author
 
 **Nirmal Raj D**
 
